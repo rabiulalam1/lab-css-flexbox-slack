@@ -1,0 +1,43 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+* {
+    text-align: center;
+    margin: 0 20px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img, header img{
+    max-width: 100%;
+}
+
+nav {
+    margin: 0;
+    display: flex;
+    position: fixed;
+    border: solid lightgrey 2px;
+    border-style: solid none;
+    background-color: white;
+}
+
+header {
+    margin-top: 100px;
+}
+
+nav img {
+    max-width: 20%;
+}
+
+nav ul {
+    list-style: none;
+}
